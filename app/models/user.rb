@@ -10,5 +10,4 @@ class User < ApplicationRecord
   validates :profile, presence: true
   validates :occupation, presence: true
   validates :position, presence: true
-  validates :content, presence: true
 end
